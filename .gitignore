@@ -1,0 +1,23 @@
+# Environment secrets
+backend/.env
+
+# Python caching
+backend/__pycache__/
+__pycache__/
+*.pyc
+
+# Local databases & logs
+*.db
+*.log
+backend/temp_uploads/
+
+# Dependency folders
+node_modules/
+dist/
+.env.local
+
+# IDE configurations
+.vscode/
+.idea/
+.agents/
+scratch/
