@@ -1,3 +1,13 @@
+---
+title: DataLens
+emoji: 📊
+colorFrom: green
+colorTo: emerald
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # DataLens
 
 DataLens is a premium, full-stack web application designed to bridge the gap between raw statistical data and human understanding. Users can upload tabular CSV datasets and receive an instant, interactive exploratory data analysis (EDA) dashboard complete with local statistical audits, outliers, missingness indicators, and correlation maps, accompanied by plain-English AI narrative interpretation reports.
