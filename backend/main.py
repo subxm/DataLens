@@ -47,7 +47,7 @@ class PDFExportRequest(BaseModel):
     analysis: Dict[str, Any]
     narration: str
 
-@app.get("/")
+@app.get("/api")
 async def root():
     return {
         "message": "Welcome to the DataLens API!",
