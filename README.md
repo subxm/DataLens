@@ -1,10 +1,10 @@
-# 📊 DataLens
+# DataLens
 
 DataLens is a premium, full-stack web application designed to bridge the gap between raw statistical data and human understanding. Users can upload tabular CSV datasets and receive an instant, interactive exploratory data analysis (EDA) dashboard complete with local statistical audits, outliers, missingness indicators, and correlation maps, accompanied by plain-English AI narrative interpretation reports.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 1. **Upload & Ingestion Page**:
    - Clean, drag-and-drop CSV upload zone (with instant file browser activation on clicking the icon).
@@ -29,7 +29,7 @@ DataLens is a premium, full-stack web application designed to bridge the gap bet
 
 ---
 
-## 📐 System Architecture & Data Flow
+## System Architecture & Data Flow
 
 ```mermaid
 graph TD
@@ -47,7 +47,7 @@ graph TD
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend**: Python 3.10+, FastAPI, Pandas, NumPy, SciPy, Plotly, ReportLab, HTTPX, Psycopg2.
 - **Frontend**: React 18, Vite 6, Tailwind CSS v4, Lucide React, Plotly.js.
@@ -56,7 +56,7 @@ graph TD
 
 ---
 
-## 🏁 Quick Start & Setup
+## Quick Start & Setup
 
 ### Prerequisites
 - Python 3.10+
@@ -106,7 +106,7 @@ You can run the backend and frontend simultaneously with a single click:
 
 ---
 
-## ☁️ Hugging Face Spaces Deployment
+## Hugging Face Spaces Deployment
 
 DataLens is designed to deploy inside a single Docker container on Hugging Face Spaces:
 
